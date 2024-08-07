@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/MatrixFox621/e621-rec/internal"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	fmt.Println(internal.Test().(type))
 }
